@@ -45,7 +45,7 @@ incorporate them into your project.
 Implement the following schema. Try drawing it out first to visualize how the
 models interact with each other. Ask an instructor if you have any questions at
 this point. Then go ahead and create your migrations. Don't forget to add
-appropriate indexes and constraints!
+appropriate indexes and constraints (including foreign keys)!
 
 - `User`
   - Store a `username`; make sure it is unique.
@@ -82,6 +82,8 @@ Now go ahead and create your models. Write the following associations:
 - `Response`
   - `answer_choice`
   - `respondent`
+
+Don't forget to add `dependent: :destroy` where appropriate!
 
 ## Seeding the database
 
