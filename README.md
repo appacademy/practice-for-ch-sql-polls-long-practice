@@ -130,13 +130,13 @@ following associations:
 ##### Response#question
 
 This is a `has_one through:` association. `has_one through:` works exactly like
-`has_many through:` (it has `through` and `source` options). The only difference
+`has_many :through` (it has `through` and `source` options). The only difference
 is that it returns a single object (or `nil`) instead of an array-like
 `Relation`.
 
 ##### Question#responses
 
-This is a `has_many through:` association. You've got this :-).
+This is a `has_many :through` association. You've got this :-).
 
 ##### Singling yourself out
 
