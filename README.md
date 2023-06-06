@@ -2,7 +2,7 @@
 
 In the spirit of enfranchisement, you're going to build a polling app today!
 
-## Learning Goals
+## Learning goals
 
 - Be able to write migrations with indexes and constraints
   - Know how to fix the effects of incorrect migrations
